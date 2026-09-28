@@ -1,0 +1,1 @@
+import{G as a}from"./index-Dy_bLtY3.js";const n={async createQuotation(t){return await a.post("/quotations",t)},async listQuotation(t={}){return await a.get("/quotations",{params:t})},async getQuotation(t){return await a.get(`/quotations/${t}`)}};export{n as q};
